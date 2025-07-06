@@ -15,3 +15,8 @@ deno task dev
 ```
 
 This will watch the project directory and restart as necessary.
+
+```env .env
+DB_URL=db/db.sqlite
+AUTH_SALT=your_auth_salt_here
+```
